@@ -6,5 +6,5 @@ To use this repo you should:
 - clone or download it
 - `cd sample_app`
 - run `bundle install`
-- run `db:create db:migrate db:seed`
+- run `rails db:create db:migrate db:seed`
 - run `rails c` to test your queries
