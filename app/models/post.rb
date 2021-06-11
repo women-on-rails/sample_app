@@ -4,6 +4,6 @@ class Post < ApplicationRecord
   has_many :comments
   
   def self.first_five
-    [0...4]
+    all[0...4]
   end
 end
