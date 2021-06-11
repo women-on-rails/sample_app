@@ -12,5 +12,5 @@ end
 
 50.times do
   Post.create(user: User.all.sample, title: Faker::Dessert.flavor, content: Faker::GreekPhilosophers.quote)
-  Comment.create(user: User.all.sample, post: Post.all.sample)
+  Comment.create(user: User.all.sample, post: Post.all.sample, content: Faker::GreekPhilosophers.quote)
 end
